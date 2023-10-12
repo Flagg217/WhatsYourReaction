@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<h1>PortFolio</h1>} />
+        <Route path="/portfolio" element={<h1 className= "text-3xl font-bold underline">Portfolio</h1>} />
         <Route path="/contact" element={<h1>Contact</h1>} />
       </Routes>
     </Router>
