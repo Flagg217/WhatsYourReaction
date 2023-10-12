@@ -12,6 +12,8 @@ export default {
 
   const defaultTheme = require('tailwindcss/defaultTheme');
 
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
     theme: {
         extend: {
@@ -20,4 +22,5 @@ module.exports = {
             },
         },
     },
-    }
+};
+
