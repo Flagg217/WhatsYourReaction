@@ -1,16 +1,21 @@
+import React, { useState } from 'react';
 import { Link } from "react-router-dom"
-const Navbar= () => {
+
+function Navbar= () => {
+    const backgroundColor = "lightblue"
     return (
         <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                    <Link to="/portfolio">Portfolio</Link>
-                    <Link to="/contact">Contact</Link>
-                </li>
-            </ul>
+            <Link to={"/"}>
+            <button style={{ backgroundColor: backgroundColor }}>About Me</button>
+            </Link>
+            <Link to={"/portfolio"}>
+            <button style={{ backgroundColor: backgroundColor }}>Portfolio</button>
+            </Link>
+            <Link to={"/contactMe"}>
+            <button style={{ backgroundColor: backgroundColor }}>Contact Me</button>
+            </Link>
         </nav>
-    )
+    );
 }
 
 export default Navbar
