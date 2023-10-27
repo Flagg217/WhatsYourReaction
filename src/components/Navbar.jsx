@@ -14,6 +14,9 @@ function Navbar() {
             <Link to={"/contactMe"}>
             <button style={{ backgroundColor: backgroundColor }}>Contact Me</button>
             </Link>
+            <Link to={"/resume"}>
+            <button style={{ backgroundColor: backgroundColor }}>Resume</button>
+            </Link>
         </nav>
     );
 }
