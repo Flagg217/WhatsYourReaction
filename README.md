@@ -38,4 +38,4 @@ I had a lot of help from my tutor, my instructor, and my classmates.
 
 GitHub Repository: https://github.com/Flagg217/WhatsYourReaction.git  
 
-Deployed Application: https://flagg217.github.io/WhatsYourReaction/ 
+Deployed Application: https://flagg217.github.io/WhatsYourReaction/
