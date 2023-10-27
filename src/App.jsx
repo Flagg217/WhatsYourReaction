@@ -1,18 +1,21 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
+import { useState } from 'react';
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./public/vite.svg";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AboutMe from "./components/pages/AboutMe";
+import Portfolio from "./components/pages/Portfolio";
+import ContactMe from "./components/pages/ContactMe";
 
 function App() {
   const [count, setCount] = useState(0);
+
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<h1>Portfolio</h1>} />
-        <Route path="/contact" element={<h1>Contact</h1>} />
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contactMe" element={<ContactMe />} />
       </Routes>
     </Router>
   );
