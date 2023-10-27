@@ -1,13 +1,12 @@
 import data from './data.json';
-import image from '../assets/images/RecipeConcierge.jpg';
 
 function Project() {
-    const fontColor = "white";
+    const fontColor = "black";
     return (
         <div>
             <div style={{ color: fontColor }}>
-                {data.map((item) => (
-                    <div>
+                {data.map((item, index) => (
+                    <div key={index}>
                         <br />
                         {item.title}
                         <br />
@@ -20,9 +19,9 @@ function Project() {
                         <a href={item.githubLink}>GitHub Link</a>
                         <br />
                         <a href={item.deployedLink}>Deployed Link</a>
-                        </div>
+                    </div>
                 ))}
-        </div>
+            </div>
         </div>
     );
 }

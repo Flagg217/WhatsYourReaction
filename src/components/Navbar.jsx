@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 
-function Navbar= () => {
-    const backgroundColor = "lightblue"
+function Navbar() {
+    const backgroundColor = "blue"
     return (
         <nav>
             <Link to={"/"}>
