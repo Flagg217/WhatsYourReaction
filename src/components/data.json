@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Chatty Cat",
+        "img": "src/assets/images/ChattyCat.jpg",
+        "liveLink": "https://chatty-cat-d7c479363922.herokuapp.com/",
+        "gitHubLink": "https://github.com/Neetk962/Chatty-Cat",
+        "description": "A chat application that allows users to chat with each other in real time. Users can create their own chat rooms and invite others to join. Users can also send images and gifs to each other. The application is built using React, Node.js, Express, and MongoDB. The application is deployed on Heroku."
+    },
+    {
+        "title": "Javascript Quiz",
+        "img": "src/assets/images/QuizScreenshot.jpg",
+        "liveLink": "https://flagg217.github.io/PopQuizHotshot/",
+        "gitHubLink": "https://github.com/Flagg217/PopQuizHotshot.git",
+        "description": "A quiz application that tests the user's knowledge of Javascript. The application is built using HTML, CSS, and Javascript. The application is deployed on GitHub Pages."
+    },
+    {
+        "title": "Recipe Concierge",
+        "img": "src/assets/images/RecipeConcierge.jpg",
+        "liveLink": " https://athenamw.github.io/recipeConcierge/",
+        "gitHubLink": "https://athenamw.github.io/recipeConcierge/",
+        "description": "A recipe application that allows users to search for recipes based on ingredients they have on hand. The application is built using HTML, CSS, Javascript, and the Spoonacular API. The application is deployed on GitHub Pages."
+    },
+    {
+        "title": "Are You Taking Notes?",
+        "img": "src/assets/images/Screenchot1.png",
+        "liveLink": "https://quiet-anchorage-67384-6bb46d78cdc6.herokuapp.com/",
+        "gitHubLink": "https://github.com/Flagg217/AreYouTakingNotes",
+        "description": "A note taking application that allows users to create, save, and delete notes. The application is built using HTML, CSS, Javascript, Node.js, Express, and MySQL. The application is deployed on Heroku."
+    }
+]
