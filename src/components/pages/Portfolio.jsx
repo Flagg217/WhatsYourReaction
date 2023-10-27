@@ -1,12 +1,19 @@
+import React, { useState } from 'react';
+import Header from "../Header";
+import Footer from "../Footer";
+import Project from "../Project";
 
-
-
-const Portfolio = ()=>{
-    return(
+function Portfolio() {
+    const fontColor = "black";
+    return (
         <div>
-            <h1>Portfolio</h1>
+            <Header title="Portfolio" bgColor="lightblue" />
+            <br />
+            <Project />
+            <br />
+            <Footer title="Portfolio" bgColor="lightblue" />
         </div>
-    )
-}
+    );
+}   
 
-export default Portfolio
+export default Portfolio;
